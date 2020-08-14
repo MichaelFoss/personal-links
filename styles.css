@@ -1,0 +1,43 @@
+html, body {
+	font-family: Helvetica;
+	background-color: #333;
+	color: #999;
+}
+
+ul {
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+
+li {
+	padding: 0;
+	margin: 24px 0;
+	list-style: none;
+}
+
+ol, ol li {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+ol li {
+  margin: 0 0 0 10px;
+}
+
+a {
+	font-weight: bold;
+	color: orange;
+	text-decoration: none;
+	padding: 6px 8px;
+	border-radius: 5px;
+	background-color: #111;
+	border-color: #aaa;
+}
+
+a:hover {
+	border-color: #ccc;
+	background-color: #222;
+	color: yellow;
+}
+
