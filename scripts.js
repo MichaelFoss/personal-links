@@ -47,10 +47,8 @@ const onLoad = () => {
 		}
 	});
 
-  console.log(activeLinkId);
   if (activeLinkId !== null) {
     const activeLink = document.querySelector(`#link_${activeLinkId}`);
-    console.log(activeLink);
     activeLink.focus();
   }
 };
